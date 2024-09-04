@@ -24,10 +24,6 @@ function search() {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data.drinks);
-        console.log(data.drinks[0].strInstructions);
-        console.log(data.drinks[0].strMeasure1);
-
         // This section is to generate images, names and instructions from the API and put them into empty arrays
         let drinkImages = []; // Contains all the images for the different cocktails
         let drinkName = [];
