@@ -5,6 +5,7 @@ document.querySelector("button").addEventListener("click", search);
 const select = document.querySelector("#drink-select");
 let p = document.querySelector(".error");
 let instructions = document.querySelector(".instructions");
+let drinkImgVariant = document.querySelector(".drinkImg-variant");
 let intervalID;
 let errorMessage = "";
 
@@ -60,10 +61,13 @@ function search() {
 
         // With default 0 index drink instructions, changes drink type instructions with click
         instructions.textContent = drinkInstructions[0];
+        drinkImgVariant.src = drinkImages[0];
         select.addEventListener("change", (event) => {
           const selectedDrink = event.target.value;
           const index = drinkName.indexOf(selectedDrink);
           instructions.textContent = drinkInstructions[index];
+
+          drinkImgVariant.src = drinkImages[index];
         });
       })
       .catch((err) => {
