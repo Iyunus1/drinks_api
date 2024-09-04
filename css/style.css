@@ -24,6 +24,10 @@ h3 {
   display: flex;
   text-align: center;
 }
+
+.error {
+  color: red;
+}
 /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
