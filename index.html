@@ -12,20 +12,26 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Which Cocktail?</h1>
-    <input type="text" name="" value="" />
-    <button type="button" name="button">Get Cocktail</button>
-    <p class="error"></p>
-    <h2></h2>
-    <img src="" alt="" />
-    <h3></h3>
+    <section class="landing-page">
+      <h1>Which Cocktail?</h1>
+      <input type="text" name="" value="" />
+      <button type="button" name="button">Get Cocktail</button>
+      <p class="error"></p>
+      <h2></h2>
+      <img src="" alt="" />
+      <h3></h3>
+    </section>
     <section class="cocktail-variants">
-      <label for="drink-select">Choose your drink type:</label>
-      <select name="drink" id="drink-select">
-        <option value="" selected>Please Choose a drink</option>
-      </select>
-      <p class="instructions"></p>
-      <img class="drinkImg-variant" src="" alt="" />
+      <div class="column left">
+        <label for="drink-select">Choose your drink type:</label>
+        <select name="drink" id="drink-select">
+          <option value="" selected>Please Choose a drink</option>
+        </select>
+        <p class="instructions"></p>
+      </div>
+      <div class="column">
+        <img class="drinkImg-variant" src="" alt="" />
+      </div>
     </section>
 
     <script type="text/javascript" src="js/main.js"></script>

@@ -1,0 +1,29 @@
+[33mcommit 380533a5bdfeb4dd5610272ecfc24b597a683825[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Iyunus1 <90559412+Iyunus1@users.noreply.github.com>
+Date:   Thu Sep 5 00:29:55 2024 +0100
+
+    Added picture displayed with the drink variant choosen
+
+[33mcommit 12eafcf6762d7e7ba097d6c90fc6fdc26bf3a3c4[m
+Author: Iyunus1 <90559412+Iyunus1@users.noreply.github.com>
+Date:   Thu Sep 5 00:14:34 2024 +0100
+
+    Cleared console logs and error catching console
+
+[33mcommit c314343e4be21f570394885d2de7bf5d24ce26d4[m
+Author: Iyunus1 <90559412+Iyunus1@users.noreply.github.com>
+Date:   Thu Sep 5 00:12:09 2024 +0100
+
+    Added dropdown menu to choose different drink types of drink choosen
+
+[33mcommit 3308ed85061ac782da988209e4d8cf3249307b66[m
+Author: Iyunus1 <90559412+Iyunus1@users.noreply.github.com>
+Date:   Wed Sep 4 18:26:07 2024 +0100
+
+    Added a catch for empty text box and html p tag that asks for a valid drink
+
+[33mcommit e79fe917ae0383903c55b74545b75647f1df6255[m
+Author: Iyunus1 <90559412+Iyunus1@users.noreply.github.com>
+Date:   Wed Sep 4 01:47:06 2024 +0100
+
+    Created drinks api with a carasouel

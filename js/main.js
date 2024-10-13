@@ -2,6 +2,7 @@
 // Every time the button is clicked with a new drink it is added into the array... find a way so the array is empty whenever the button is clicked
 //for it not to loop over multiple different drinks
 document.querySelector("button").addEventListener("click", search);
+
 const select = document.querySelector("#drink-select");
 let p = document.querySelector(".error");
 let instructions = document.querySelector(".instructions");
@@ -11,7 +12,7 @@ let errorMessage = "";
 
 function search() {
   let cocktailName = document.querySelector("input").value;
-  if (cocktailName === "") {
+  if (cocktailName.toLowerCase() === "") {
     p.textContent = "Please enter a valid drink";
   } else {
     p.textContent = "";
@@ -25,6 +26,7 @@ function search() {
     )
       .then((res) => res.json())
       .then((data) => {
+        console.log(data);
         // This section is to generate images, names and instructions from the API and put them into empty arrays
         let drinkImages = []; // Contains all the images for the different cocktails
         let drinkName = [];
